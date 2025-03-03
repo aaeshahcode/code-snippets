@@ -2,11 +2,3 @@ costprice = float(input("enter the cost price: "))
 sellingprice = float(input("enter the selling price: ")
 margin= ((sellingprice - costprice)/sellingprice)*100
 print("The marginal profit is " , margin)
-x = int(input("Enter a number: ")) # The user enters 2
-print(type(x))
-print("a")
-print("\n")
-print("b")
-a=2
-b=3
-print("multiplication ", str(a*b))
