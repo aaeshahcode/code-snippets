@@ -2,3 +2,5 @@ costprice = float(input("enter the cost price: "))
 sellingprice = float(input("enter the selling price: ")
 margin= ((sellingprice - costprice)/sellingprice)*100
 print("The marginal profit is " , margin)
+If margin > 2 * costprice:
+  print("This is a profitable business")
